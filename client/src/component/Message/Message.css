@@ -1,0 +1,42 @@
+.msgBox{
+    padding: 1vmax;
+    margin: 1.25vmax;
+    border-radius: 0.5vmax;
+    display: flex;
+    clear: both;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.msgBox>p{
+    font-size: 11px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+}
+
+.right{
+    float:right;
+    background-color: #1689FC;
+    color:white;
+}
+
+.left{
+    background-color: #fff;
+    float: left;
+    
+}
+
+.admin{
+    background-color: rgb(188, 218, 160);
+    display: block;
+    width: max-content;
+    
+
+}
+.adminLeft{
+    background-color: rgb(250, 85, 85);
+    display: block;
+    width: max-content;
+}
+

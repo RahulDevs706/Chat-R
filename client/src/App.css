@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    
+}
+
+@media (max-width:840px) {
+
+
+    .joinPage{
+       
+        height: 100vh !important;
+        width: 100vw !important;
+        display: flex !important;
+        flex-direction: column !important;
+     
+    }
+
+    .joinContainer{
+        margin-top: 20vw !important;
+        width:100% !important;
+    
+    }
+    .joinContainer > img {
+        width : 30vw !important;
+    }
+    
+    .joinContainer > h1{    
+       
+        font-size: 6vw !important;
+        width: 66vw !important;
+        border-bottom: 0.4vh solid #fff !important;
+        padding: 3vw !important;
+    }
+
+    #joinInput{
+        width:66vw !important;
+        padding:4vw !important;
+        font-size: 5vw !important;
+        margin: 5vw !important;
+    }
+    
+    .joinBtn{
+        width:66vw !important;
+        padding:4vw !important;
+        font-size: 5vw !important;
+    }
+
+    .chatBar{
+        width:100% !important;
+    }
+
+    .chatCont{
+        height: 100% !important;
+        width:100% !important;
+    }
+
+    .header{
+        height: 10% !important;
+    }
+
+    .header > h2{
+        margin: 0 5vw !important;
+        padding-top: 1vw;
+        font-size: 7vw !important;
+    }
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root{
+    
+      font-size: 5vw !important;
+      margin: 6vw !important;
+    }
+
+    .chatBox{
+        height: 82% !important;
+    }
+
+    .inputBox{
+        position:sticky;
+        bottom: 0;
+        height: 8% !important;
+        width:100% !important;
+    }
+
+    .header{
+        position:sticky;
+        top:0;
+    }
+    .header>button{
+        margin-top: 1vw;
+        margin-right: 6vw;
+        margin-left:6vw;
+    }
+
+    
+    #chatInput{
+        width: 85%!important;
+        padding:4vw !important;
+        font-size: 4vw !important;
+    }
+    
+    .msgBox{
+        padding:3vw !important;
+        margin:3vw !important;
+        border-radius: 1.5vw !important;
+        font-size: 3.7vw !important;
+    }
+    .footer>p{
+        font-size: 2.4vw !important;
+    }
+
+    .sideHeader{
+        background-color: #1980e7;
+        height: 10%;
+        width:100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+
+    .sideBar{ 
+        width:0% !important;
+        /* top:0 !important; */
+        z-index: 1 !important;
+        /* right: -100% !important; */
+        display: absolute !important;
+        position: relative !important;
+        transition: 850ms;
+    }
+    .sideBar.active{
+        width: 100% !important;
+        transition: 350;
+    }
+    .sideHeader>h2{
+        margin:5vw !important;
+        font-size: 5vw !important;
+    }
+    
+
+}

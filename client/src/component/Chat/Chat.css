@@ -1,0 +1,130 @@
+.chatPage{
+    background-color: rgb(121, 5, 5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatCont{
+    background-color: white ;
+    height: 85%;
+    width:75%;
+    display: flex;
+}
+
+.sideBar{
+    height:100%;
+    width:25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideHeader{
+    background-color: #1980e7;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: cen;
+}
+
+.sideHeader>h2{
+    font-size: 1.5vmax;
+    color:blakc;
+    margin:2.5vmax 0.8vmax;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.sideBox{
+    height:100%;
+    width:100%;
+    background-color: #827c69;
+    overflow-y: scroll;
+}
+
+.chatBar{
+    height: 100%;
+    width:75%;
+}
+
+.header{
+    background-color: #1689FC;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header >h2{
+    font-size: 2.5vmax;
+    color:white;
+    margin:2.5vmax;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header> a{
+    padding:1vmax
+}
+
+.header>button{
+    margin-right: 3vmax;
+}
+
+
+.chatBox{
+  
+    height: 80%;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 8px 6px rgba(128, 128, 128, 0.623);
+    background-color: #e1e1e1;
+    text-align: -webkit-center
+}
+
+.inputBox{
+    
+    height: 10%;
+    box-sizing: border-box;
+    display :flex;
+    overflow: hidden;
+}
+
+#chatInput{
+    width:80%;
+    border:none;
+    padding:2vmax;
+    box-sizing: border-box;
+    background-color: white;
+    outline:none;
+    font-size: 1.2vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sendBtn{
+    width:21%;
+    border:none;
+    outline: none;
+    font-size: 1.5vmax;
+    background-color: #1689FC;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.5s;
+    cursor: pointer; 
+}
+
+.sendBtn >img{
+    width:2.65vmax;
+    filter: brightness(100) invert();
+    transition: all 0.3s;
+}
+
+.sendBtn:hover{
+    background-color: #136EF1 ;
+}
+
+.sendBtn:hover img{
+    transform: translateX(10px);
+}
