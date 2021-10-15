@@ -85,7 +85,7 @@ const Chat = () => {
         })
 
         return () => {
-            socket.emit('disconnect');
+            socket.disconnect();
             socket.off();
         }
     }, [])
